@@ -11,7 +11,7 @@ This repository provides functions to parse DOCX files retrieved from Nexis Uni.
 
 Additionaly, it returns the sentiment probabilities (neutral, positive, negative) from the article body text.
 
-### How it works
+## How it works
 
 News article from Nexis Uni are downloaded in a format (DOCX, RTF, or PDF) that is not ideal for quantitative analyses. Files can contain up to 100 news articles like the following one:
 
@@ -36,7 +36,7 @@ etl_all_docs(path_input, file_path_output)
 #### Resulting CSV (example)
 ![example2 csv](https://user-images.githubusercontent.com/89941958/180220563-8b754ca4-6d10-46c6-80ee-4c418cc5153f.jpg)
 
-### Potential Issues 
+## Potential Issues 
 - Please note that there might be some issues with dates formatting and additional work might be needed. Different media outlets provide different date formats.
 - Sentiment classification is only available in Spanish at the moment but the code can be changed easily to other languages.
 
