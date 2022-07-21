@@ -38,7 +38,7 @@ etl_all_docs(path_input, file_path_output)
 
 ## Potential Issues 
 - Please note that there might be some issues with dates formatting and additional work might be needed. Different media outlets provide different date formats.
-- Sentiment classification is only available in Spanish at the moment but the code can be changed easily to other languages.
+- Sentiment classification is only available in Spanish at the moment but the code can be easily changed to other languages (check the helper function *get_text_analytics*)
 
 
 
