@@ -19,8 +19,8 @@ News article from Nexis Uni are downloaded in a format (DOCX, RTF, or PDF) that 
 ![example_nexis](https://user-images.githubusercontent.com/89941958/180215674-1fb58d44-fad9-42fb-b2b9-4dba76966756.jpg)
 
 Two DOCX examples can be find in the */data* folder:
-- */data/example1.csv*
-- */data/example2.csv*
+- */data/example1.DOCX*
+- */data/example2.DOCX*
 
 The function *etl_all_docs* in *nexis_uni.py* takes a folder path, reads all .DOCX files and parses all the relevant information described in the description. The data is returned in a csv file. 
 
