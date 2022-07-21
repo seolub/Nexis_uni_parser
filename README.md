@@ -13,7 +13,7 @@ Additionaly, it returns the sentiment probabilities (neutral, positive, negative
 
 ## How it works
 
-News article from Nexis Uni are downloaded in a format (DOCX, RTF, or PDF) that is not ideal for quantitative analyses. Files can contain up to 100 news articles like the following one:
+News articles from Nexis Uni are downloaded in a format (DOCX, RTF, or PDF) that is not ideal for quantitative analyses. Files can contain up to 100 news articles like the following one:
 
 #### Article (example)
 ![example_nexis](https://user-images.githubusercontent.com/89941958/180215674-1fb58d44-fad9-42fb-b2b9-4dba76966756.jpg)
